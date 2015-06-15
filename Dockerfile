@@ -18,6 +18,7 @@ RUN apt-get update -o APT::Architectures="amd64,i386" && apt-get install -y \
     ruby-build \
     python2.7 \
     python \
+    python-dev \
     python-pip
 RUN apt-get install --assume-yes gcc-arm-linux-gnueabihf
 RUN gem install fpm && rbenv rehash
