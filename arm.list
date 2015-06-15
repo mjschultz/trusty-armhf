@@ -1,0 +1,3 @@
+deb [arch=armhf] http://ports.ubuntu.com/ trusty main restricted universe
+deb [arch=armhf] http://ports.ubuntu.com/ trusty-updates main restricted universe
+deb [arch=armhf] http://ports.ubuntu.com/ trusty-security main restricted universe
